@@ -40,13 +40,6 @@ public class One {
         One.phone = phone;
     }
 
-    public List<One> getList() {
-        return list;
-    }
-
-    public void setList(List<One> list) {
-        this.list = list;
-    }
     list.add(new One("is", 76, 2638));
     list.add(new One("Ira", 56, 2445));
 
