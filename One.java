@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class One {
 
     private static String name;
@@ -10,4 +13,6 @@ public class One {
         this.phone = phone;
 
     }
+
+    List<One> list = new ArrayList<>();
 }
