@@ -15,4 +15,37 @@ public class One {
     }
 
     List<One> list = new ArrayList<>();
+
+    public static String getName() {
+        return name;
+    }
+
+    public static void setName(String name) {
+        One.name = name;
+    }
+
+    public static int getAge() {
+        return age;
+    }
+
+    public static void setAge(int age) {
+        One.age = age;
+    }
+
+    public static int getPhone() {
+        return phone;
+    }
+
+    public static void setPhone(int phone) {
+        One.phone = phone;
+    }
+
+    public List<One> getList() {
+        return list;
+    }
+
+    public void setList(List<One> list) {
+        this.list = list;
+    }
+   
 }
