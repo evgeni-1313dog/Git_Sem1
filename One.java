@@ -49,4 +49,6 @@ public class One {
     }
     list.add(new One("is", 76, 2638));
     list.add(new One("Ira", 56, 2445));
+
+    list.sort(Comparator.comparing(One::getPhone));
 }
